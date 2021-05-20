@@ -17,7 +17,7 @@ class ContactDesktop extends StatelessWidget {
         children: [
           Text(
             "\nContact",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
@@ -25,7 +25,7 @@ class ContactDesktop extends StatelessWidget {
           ),
           Text(
             "Let's get in touch and build something together :)\n\n",
-            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+            style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

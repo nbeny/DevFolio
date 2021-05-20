@@ -43,7 +43,7 @@ class HomeDesktop extends StatelessWidget {
                   children: [
                     Text(
                       "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(fontSize: height * 0.03, fontWeight: FontWeight.w300),
+                      style: GoogleFonts.pattaya(fontSize: height * 0.03, fontWeight: FontWeight.w300),
                     ),
                     EntranceFader(
                       offset: Offset(0, 0),
@@ -60,16 +60,16 @@ class HomeDesktop extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
-                  style: GoogleFonts.montserrat(
+                  "Beny",
+                  style: GoogleFonts.pattaya(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 4.0),
                 ),
                 Text(
-                  "Hamza",
-                  style: GoogleFonts.montserrat(
+                  "Nicolas",
+                  style: GoogleFonts.pattaya(
                       fontSize:
                           width < 1200 ? height * 0.085 : height * 0.095,
                       fontWeight: FontWeight.w500,
@@ -88,7 +88,7 @@ class HomeDesktop extends StatelessWidget {
                       TyperAnimatedTextKit(
                           isRepeatingAnimation: true,
                           speed: Duration(milliseconds: 50),
-                          textStyle: GoogleFonts.montserrat(
+                          textStyle: GoogleFonts.pattaya(
                               fontSize: height * 0.03,
                               fontWeight: FontWeight.w200),
                           text: [

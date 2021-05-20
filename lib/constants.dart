@@ -7,20 +7,14 @@ Color kPrimaryColor = Color(0xffC0392B);
 // Social Media
 const kSocialIcons = [
   "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
-  "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
-  "https://img.icons8.com/android/480/ffffff/twitter.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-  "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-  "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
+  "https://img.icons8.com/material-rounded/384/ffffff/github.png"
 ];
 
 const kSocialLinks = [
-  "https://facebook.com/mhamzadev",
-  "https://instagram.com/mhamzadev",
-  "https://twitter.com/mhamzadev",
-  "https://linkedin.com/in/mhamzadev",
-  "https://github.com/m-hamzashakeel",
-  "https://mhamzadev.medium.com"
+  "https://facebook.com/nbeny",
+  "https://linkedin.com/in/nbeny",
+  "https://github.com/nbeny",
 ];
 
 // URL Launcher
@@ -29,14 +23,14 @@ void launchURL(String _url) async =>
 
 // Community
 final kCommunityLogo = [
-  'assets/cui.png',
-  'assets/flutterIsl.png',
+  'assets/42.png',
+  'assets/flutter.png',
   'assets/dsc.png'
 ];
 
 final kCommunityLinks = [
   "https://www.comsats.edu.pk/",
-  "https://web.facebook.com/FlutterIslamabadPakistan/",
+  "https://web.facebook.com/flutteramabadPakistan/",
   "https://dsc.community.dev/comsats-university-islamabad/"
 ];
 
@@ -66,16 +60,16 @@ final kServicesDescriptions = [
   "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
   "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-  "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mhamzadev",
-  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @m-hamzashakeel",
+  "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mNicolasdev",
+  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @nbeny",
 ];
 
 final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/m-hamzashakeel"
+  "https://www.fiverr.com/Nicolas6shakeel/be-your-mobile-app-developer-via-flutter",
+  "https://www.fiverr.com/Nicolas6shakeel/get-you-modern-ui-design-using-adobe-xd",
+  "https://www.fiverr.com/Nicolas6shakeel/be-your-mobile-app-developer-via-flutter",
+  "https://mNicolasdev.medium.com",
+  "https://github.com/nbeny"
 ];
 
 // projects
@@ -126,16 +120,16 @@ final kProjectsDescriptions = [
 ];
 
 final kProjectsLinks = [
-  "https://github.com/m-hamzashakeel/MedKit-Pharmacy-App-Using-Flutter",
-  "https://github.com/m-hamzashakeel/The_Holy_Quran_App",
-  "https://github.com/m-hamzashakeel/Here-I-Am-Alert-App",
-  "https://github.com/m-hamzashakeel/Covid19-Tracker-App",
-  "https://github.com/m-hamzashakeel/Messenger-Chat-Head-Flutter-UI",
-  "https://github.com/m-hamzashakeel/flutter.dev-Flutter-Web-Clone",
-  "https://github.com/m-hamzashakeel/Earbender_Music_App",
-  "https://github.com/m-hamzashakeel/FTP_GUI_Java",
-  "https://github.com/m-hamzashakeel/My-Order-Resturant-Ordering-System",
-  "https://github.com/m-hamzashakeel/Hidev_Web",
+  "https://github.com/nbeny/MedKit-Pharmacy-App-Using-Flutter",
+  "https://github.com/nbeny/The_Holy_Quran_App",
+  "https://github.com/nbeny/Here-I-Am-Alert-App",
+  "https://github.com/nbeny/Covid19-Tracker-App",
+  "https://github.com/nbeny/Messenger-Chat-Head-Flutter-UI",
+  "https://github.com/nbeny/flutter.dev-Flutter-Web-Clone",
+  "https://github.com/nbeny/Earbender_Music_App",
+  "https://github.com/nbeny/FTP_GUI_Java",
+  "https://github.com/nbeny/My-Order-Resturant-Ordering-System",
+  "https://github.com/nbeny/Hidev_Web",
 ];
 
 // Contact
@@ -152,7 +146,7 @@ final kContactTitles = [
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza.6.shakeel@gmail.com"
+  "Wimereux, France",
+  "(+33) 6 74 69 63 16",
+  "nbeny42@gmail.com"
 ];

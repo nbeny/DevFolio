@@ -39,7 +39,7 @@ class _HomeMobileState extends State<HomeMobile> {
                   children: [
                     Text(
                       "HEY THERE! ",
-                      style: GoogleFonts.montserrat(
+                      style: GoogleFonts.pattaya(
                           fontSize: height * 0.025,
                           fontWeight: FontWeight.w200),
                     ),
@@ -53,15 +53,15 @@ class _HomeMobileState extends State<HomeMobile> {
                   height: height * 0.01,
                 ),
                 Text(
-                  "Muhammad",
-                  style: GoogleFonts.montserrat(
+                  "Beny",
+                  style: GoogleFonts.pattaya(
                       fontSize: height * 0.055,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.1),
                 ),
                 Text(
-                  "Hamza",
-                  style: GoogleFonts.montserrat(
+                  "Nicolas",
+                  style: GoogleFonts.pattaya(
                       fontSize: height * 0.055, fontWeight: FontWeight.w500),
                 ),
                 Row(
@@ -73,7 +73,7 @@ class _HomeMobileState extends State<HomeMobile> {
                     TyperAnimatedTextKit(
                         isRepeatingAnimation: true,
                         speed: Duration(milliseconds: 50),
-                        textStyle: GoogleFonts.montserrat(
+                        textStyle: GoogleFonts.pattaya(
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200),
                         text: [

@@ -34,7 +34,7 @@ class HomeTab extends StatelessWidget {
                   children: [
                     Text(
                       "WELCOME TO MY PORTFOLIO! ",
-                      style: GoogleFonts.montserrat(
+                      style: GoogleFonts.pattaya(
                           fontSize: height * 0.03, fontWeight: FontWeight.w300),
                     ),
                     Image.asset(
@@ -47,15 +47,15 @@ class HomeTab extends StatelessWidget {
                   height: height * 0.04,
                 ),
                 Text(
-                  "Muhammad",
-                  style: GoogleFonts.montserrat(
+                  "Beny",
+                  style: GoogleFonts.pattaya(
                       fontSize: height * 0.07,
                       fontWeight: FontWeight.w100,
                       letterSpacing: 1.5),
                 ),
                 Text(
-                  "Hamza",
-                  style: GoogleFonts.montserrat(
+                  "Nicolas",
+                  style: GoogleFonts.pattaya(
                       fontSize: height * 0.07, fontWeight: FontWeight.w500),
                 ),
                 Row(
@@ -67,7 +67,7 @@ class HomeTab extends StatelessWidget {
                     TyperAnimatedTextKit(
                         isRepeatingAnimation: true,
                         speed: Duration(milliseconds: 50),
-                        textStyle: GoogleFonts.montserrat(
+                        textStyle: GoogleFonts.pattaya(
                             fontSize: height * 0.03,
                             fontWeight: FontWeight.w200),
                         text: [

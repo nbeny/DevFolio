@@ -16,8 +16,8 @@ class NavBarLogo extends StatelessWidget {
             style: TextStyle(fontSize: height ?? 20),
           ),
           Text(
-            "Hamza",
-            style: TextStyle(fontFamily: "Agustina", fontSize: height ?? 20),
+            "Nicolas",
+            style: TextStyle(fontFamily: "CyberPrincess3DFilled-Italic", fontSize: height ?? 20),
           ),
           Text(
             MediaQuery.of(context).size.width >= 1000 ? " />\t\t" : " />",

@@ -13,8 +13,8 @@ class Footer extends StatelessWidget {
       color: Colors.grey[900],
       child: Center(
         child: Text(
-          "© All Right Reservered by Muhammad Hamza",
-          style: GoogleFonts.montserrat(fontWeight: FontWeight.w100),
+          "© All Right Reservered by Beny Nicolas",
+          style: GoogleFonts.pattaya(fontWeight: FontWeight.w100),
         ),
       ),
     );

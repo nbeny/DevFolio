@@ -22,7 +22,7 @@ class AboutMobile extends StatelessWidget {
         children: [
           Text(
             "About Me",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,

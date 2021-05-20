@@ -11,12 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hamza',
+      title: 'Nicolas',
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: kPrimaryColor,
         accentColor: kPrimaryColor,
-        // fontFamily: "Montserrat",
+        // fontFamily: "Pattaya-Regular",
         highlightColor: kPrimaryColor,
       ),
       home: MainPage(),

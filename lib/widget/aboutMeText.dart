@@ -8,7 +8,7 @@ class AboutMeText extends StatelessWidget {
   const AboutMeText({Key key, this.textAlign, this.fontSize}) : super(key: key);
 
   TextStyle _textStyle(double fSize, bool bold) {
-    return GoogleFonts.montserrat(
+    return GoogleFonts.pattaya(
       fontSize: fSize ?? 14,
       fontWeight: !bold ? FontWeight.w100 : FontWeight.w400,
       letterSpacing: 1.0,
@@ -24,7 +24,7 @@ class AboutMeText extends StatelessWidget {
       text: TextSpan(children: [
         TextSpan(
           text:
-              "Hi There! I'm Hamza, a Flutter developer, technial writer and open source contributor based in Pakistan.\n\nI have been developing mobile apps for over 1.5 years now, I develop apps with appealing UI and robust performance. I have worked in teams for various startups and helped them in launching their prototypes, as open source contributor at GitHub and got valuable learning experience.\n\nRight now I'm in final year of my undergraduate degree at ",
+              "Hi There! I'm Nicolas, a Flutter developer, technial writer and open source contributor based in Pakistan.\n\nI have been developing mobile apps for over 1.5 years now, I develop apps with appealing UI and robust performance. I have worked in teams for various startups and helped them in launching their prototypes, as open source contributor at GitHub and got valuable learning experience.\n\nRight now I'm in final year of my undergraduate degree at ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),

@@ -177,7 +177,7 @@ class _MainPageState extends State<MainPage> {
               },
               child: Text(
                 "Resume",
-                style: GoogleFonts.montserrat(
+                style: GoogleFonts.pattaya(
                   fontWeight: FontWeight.w200,
                 ),
               ),
@@ -220,7 +220,7 @@ class _MainPageState extends State<MainPage> {
                   ),
                   title: Text(
                     "Resume",
-                    style: GoogleFonts.montserrat(
+                    style: GoogleFonts.pattaya(
                       fontWeight: FontWeight.w200,
                     ),
                   ),

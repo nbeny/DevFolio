@@ -17,7 +17,7 @@ class PortfolioDesktop extends StatelessWidget {
         children: [
           Text(
             "\nPortfolio",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
@@ -25,7 +25,7 @@ class PortfolioDesktop extends StatelessWidget {
           ),
           Text(
             "Here are few samples of my previous work :)\n\n",
-            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+            style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
           SizedBox(
             height: width > 1200 ? height * 0.45 : width * 0.2,
@@ -69,11 +69,11 @@ class PortfolioDesktop extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
+              launchURL("https://github.com/nbeny");
             },
             child: Text(
               "See More",
-              style: GoogleFonts.montserrat(
+              style: GoogleFonts.pattaya(
                 fontWeight: FontWeight.w200,
               ),
             ),

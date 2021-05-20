@@ -71,7 +71,7 @@ class _ServiceCardState extends State<ServiceCard> {
             Text(
               widget.serviceTitle,
               textAlign: TextAlign.center,
-              style: GoogleFonts.montserrat(
+              style: GoogleFonts.pattaya(
                 fontSize: height * 0.02,
                 letterSpacing: 2.0,
                 fontWeight: FontWeight.w400,
@@ -84,7 +84,7 @@ class _ServiceCardState extends State<ServiceCard> {
               child: Text(
                 widget.serviceDescription,
                 textAlign: TextAlign.center,
-                style: GoogleFonts.montserrat(
+                style: GoogleFonts.pattaya(
                     fontSize: height * 0.015,
                     letterSpacing: 2.0,
                     fontWeight: FontWeight.w100,

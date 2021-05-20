@@ -64,14 +64,14 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Agustina
+    - family: CyberPrincess3DFilled-Italic
       fonts:
-        - asset: assets/fonts/agustina.otf
+        - asset: assets/fonts/CyberPrincess3DFilled-Italic.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-    - family: Montserrat
+    - family: Pattaya-Regular
       fonts:
-        - asset: assets/fonts/montserrat.ttf
+        - asset: assets/fonts/Pattaya-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

@@ -24,7 +24,7 @@ class AboutDesktop extends StatelessWidget {
         children: [
           Text(
             "\nAbout Me",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.075,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,

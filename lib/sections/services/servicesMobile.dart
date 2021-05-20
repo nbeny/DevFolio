@@ -14,7 +14,7 @@ class ServiceMobile extends StatelessWidget {
         children: [
           Text(
             "\nWhat I Do",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
@@ -23,7 +23,7 @@ class ServiceMobile extends StatelessWidget {
           Text(
             "I may not be perfect, but I'm surely of some help :)\n\n",
             textAlign: TextAlign.center,
-            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+            style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
           CarouselSlider.builder(
             itemCount: 5,

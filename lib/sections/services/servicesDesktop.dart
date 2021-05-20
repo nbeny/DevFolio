@@ -17,7 +17,7 @@ class ServiceDesktop extends StatelessWidget {
         children: [
           Text(
             "\nWhat I Do",
-            style: GoogleFonts.montserrat(
+            style: GoogleFonts.pattaya(
               fontSize: height * 0.06,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
@@ -25,7 +25,7 @@ class ServiceDesktop extends StatelessWidget {
           ),
           Text(
             "I may not be perfect, but I'm surely of some help :)\n\n",
-            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+            style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
           Column(
             children: [
