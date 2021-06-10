@@ -35,9 +35,9 @@ final kCommunityLinks = [
 ];
 
 // Tools & Tech
-final kTools = ["Flutter", "Dart", "Python", "Java", "C++"];
+final kTools = ["Javascript", "Python", "Dart", "C#", "C"];
 
-final kTools1 = ["HTML", "CSS", "Bootstrap", "React-native"];
+final kTools1 = ["Next.js", "Angular", "Node", "Django", "Fastapi"];
 
 // services
 final kServicesIcons = [
@@ -50,18 +50,18 @@ final kServicesIcons = [
 
 final kServicesTitles = [
   "Full App Development",
-  "UI/UX Designing",
-  "Rapid Prototyping",
-  "Technical Blog Writing",
-  "Open Source - GitHub",
+  "OPS Development",
+  "Automatical Test Development",
+  "Security Analiste",
+  "Open Source",
 ];
 
 final kServicesDescriptions = [
-  "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-  "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
-  "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-  "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mNicolasdev",
-  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @nbeny",
+  "For now, I can develop you're application with Next.js or Angular.",
+  "I can create you a Packer configuration to have a OVF ready to deploy. I can also work on multiple auto installation of tools you needs on you're redeployment VMs with Ansible.",
+  "I create automatical test on you're backend development to create a pipline checker before redeploy in production you're application.\nThis is a perfect solution to be sur the backend (apis, bots, ...) is robuste and will have a correct behaviour. I can not test frontend parts for now.",
+  "I have worked during 2 years as developer in a cyber security and learn a lot of tools to perform security test or automatical scanning solution. So I can use this knowlege to you're need.",
+  "I have work with lot of open source project, I can deploy you every open source project that you can find on the web. I don't know all of these, but I know how to learn on the mat.\nThanks 42.",
 ];
 
 final kServicesLinks = [
