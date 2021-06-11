@@ -26,7 +26,7 @@ class ServiceMobile extends StatelessWidget {
             style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
           CarouselSlider.builder(
-            itemCount: 5,
+            itemCount: 6,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),

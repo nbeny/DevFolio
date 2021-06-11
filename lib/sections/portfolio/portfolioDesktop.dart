@@ -27,6 +27,14 @@ class PortfolioDesktop extends StatelessWidget {
             "Here are few samples of my previous work :)\n\n",
             style: GoogleFonts.pattaya(fontWeight: FontWeight.w200),
           ),
+          Text(
+            "Full App Development",
+            style: GoogleFonts.pattaya(
+              fontSize: height * 0.04,
+              fontWeight: FontWeight.w100,
+              letterSpacing: 1.0,
+            ),
+          ),
           SizedBox(
             height: width > 1200 ? height * 0.45 : width * 0.2,
             child: ListView.separated(
@@ -63,19 +71,136 @@ class PortfolioDesktop extends StatelessWidget {
           SizedBox(
             height: height * 0.02,
           ),
-          MaterialButton(
-            hoverColor: kPrimaryColor.withAlpha(150),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-                side: BorderSide(color: kPrimaryColor)),
-            onPressed: () {
-              launchURL("https://github.com/nbeny");
-            },
-            child: Text(
-              "See More",
-              style: GoogleFonts.pattaya(
-                fontWeight: FontWeight.w200,
-              ),
+
+
+
+          Text(
+            "OPS, Tests and Security Analist",
+            style: GoogleFonts.pattaya(
+              fontSize: height * 0.04,
+              fontWeight: FontWeight.w100,
+              letterSpacing: 1.0,
+            ),
+          ),
+          SizedBox(
+            height: width > 1200 ? height * 0.45 : width * 0.2,
+            child: ListView.separated(
+              padding: EdgeInsets.symmetric(vertical: 20.0),
+              scrollDirection: Axis.horizontal,
+              separatorBuilder: (context, index) {
+                return VerticalDivider(
+                  color: Colors.transparent,
+                  width: width * 0.015,
+                );
+              },
+              itemBuilder: (context, index) {
+                return WidgetAnimator(
+                  child: ProjectCard(
+                    cardWidth: width < 1200 ? width * 0.25 : width * 0.35,
+                    cardHeight: width < 1200 ? height * 0.28 : height * 0.1,
+                    backImage: kProjectsBanner[index],
+                    projectIcon: kProjectsIcons[index],
+                    projectTitle: kProjectsTitles[index],
+                    projectDescription: kProjectsDescriptions[index],
+                    projectLink: kProjectsLinks[index],
+                    bottomWidget: index == 1
+                        ? Image.network(
+                            "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
+                            height: height * 0.04,
+                          )
+                        : Container(),
+                  ),
+                );
+              },
+              itemCount: 4,
+            ),
+          ),
+
+
+
+          Text(
+            "Data Recovery On Web",
+            style: GoogleFonts.pattaya(
+              fontSize: height * 0.04,
+              fontWeight: FontWeight.w100,
+              letterSpacing: 1.0,
+            ),
+          ),
+          SizedBox(
+            height: width > 1200 ? height * 0.45 : width * 0.2,
+            child: ListView.separated(
+              padding: EdgeInsets.symmetric(vertical: 20.0),
+              scrollDirection: Axis.horizontal,
+              separatorBuilder: (context, index) {
+                return VerticalDivider(
+                  color: Colors.transparent,
+                  width: width * 0.015,
+                );
+              },
+              itemBuilder: (context, index) {
+                return WidgetAnimator(
+                  child: ProjectCard(
+                    cardWidth: width < 1200 ? width * 0.25 : width * 0.35,
+                    cardHeight: width < 1200 ? height * 0.28 : height * 0.1,
+                    backImage: kProjectsBanner[index],
+                    projectIcon: kProjectsIcons[index],
+                    projectTitle: kProjectsTitles[index],
+                    projectDescription: kProjectsDescriptions[index],
+                    projectLink: kProjectsLinks[index],
+                    bottomWidget: index == 1
+                        ? Image.network(
+                            "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
+                            height: height * 0.04,
+                          )
+                        : Container(),
+                  ),
+                );
+              },
+              itemCount: 4,
+            ),
+          ),
+
+
+
+          Text(
+            "Open Source Utilisation",
+            style: GoogleFonts.pattaya(
+              fontSize: height * 0.04,
+              fontWeight: FontWeight.w100,
+              letterSpacing: 1.0,
+            ),
+          ),
+          SizedBox(
+            height: width > 1200 ? height * 0.45 : width * 0.2,
+            child: ListView.separated(
+              padding: EdgeInsets.symmetric(vertical: 20.0),
+              scrollDirection: Axis.horizontal,
+              separatorBuilder: (context, index) {
+                return VerticalDivider(
+                  color: Colors.transparent,
+                  width: width * 0.015,
+                );
+              },
+              itemBuilder: (context, index) {
+                return WidgetAnimator(
+                  child: ProjectCard(
+                    cardWidth: width < 1200 ? width * 0.25 : width * 0.35,
+                    cardHeight: width < 1200 ? height * 0.28 : height * 0.1,
+                    backImage: kProjectsBanner[index],
+                    projectIcon: kProjectsIcons[index],
+                    projectTitle: kProjectsTitles[index],
+                    projectDescription: kProjectsDescriptions[index],
+                    projectLink: kProjectsLinks[index],
+                    bottomWidget: index == 1
+                        ? Image.network(
+                            "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
+                            height: height * 0.04,
+                          )
+                        : Container(),
+                  ),
+                );
+              },
+              itemCount: 4,
             ),
           ),
         ],

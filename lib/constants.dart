@@ -46,6 +46,7 @@ final kServicesIcons = [
   "assets/services/rapid.png",
   "assets/services/blog.png",
   "assets/services/open.png",
+  "assets/services/open.png"
 ];
 
 final kServicesTitles = [
@@ -53,6 +54,7 @@ final kServicesTitles = [
   "OPS Development",
   "Automatical Test Development",
   "Security Analiste",
+  "data Recovery On Web",
   "Open Source",
 ];
 
@@ -61,6 +63,7 @@ final kServicesDescriptions = [
   "I can create you a Packer configuration to have a OVF ready to deploy. I can also work on multiple auto installation of tools you needs on you're redeployment VMs with Ansible.",
   "I create automatical test on you're backend development to create a pipline checker before redeploy in production you're application.\nThis is a perfect solution to be sur the backend (apis, bots, ...) is robuste and will have a correct behaviour. I can not test frontend parts for now.",
   "I have worked during 2 years as developer in a cyber security and learn a lot of tools to perform security test or automatical scanning solution. So I can use this knowlege to you're need.",
+  "I have crawl and scrap a lot of website with multiple tools and language. I can also do it for automatical test on frontend developpment.\n\nI have do it majoritary with Selenium and Beautifullsoup. I could do it with scrapy and puppeteer too as you prefer.",
   "I have work with lot of open source project, I can deploy you every open source project that you can find on the web. I don't know all of these, but I know how to learn on the mat.\nThanks 42.",
 ];
 
@@ -69,6 +72,7 @@ final kServicesLinks = [
   "https://www.fiverr.com/Nicolas6shakeel/get-you-modern-ui-design-using-adobe-xd",
   "https://www.fiverr.com/Nicolas6shakeel/be-your-mobile-app-developer-via-flutter",
   "https://mNicolasdev.medium.com",
+  "https://github.com/nbeny",
   "https://github.com/nbeny"
 ];
 

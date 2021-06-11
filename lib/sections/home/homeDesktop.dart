@@ -92,9 +92,10 @@ class HomeDesktop extends StatelessWidget {
                               fontSize: height * 0.03,
                               fontWeight: FontWeight.w200),
                           text: [
-                            " Flutter Developer",
-                            " Technical Writer",
-                            " UI/UX Enthusiast"
+                            " Fullstack Developer",
+                            " Devops Ingineer",
+                            " Data Revovery On Web",
+                            " Security Analist"
                           ]),
                     ],
                   ),
